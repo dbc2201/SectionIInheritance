@@ -13,7 +13,16 @@
 ### Inheritance
 
 - Simple English: 
--   Inheritance (noun):
--   Inheritance (verb): 
+-   Inheritance (noun): something that is (already) or may be (in the future) "inherited".
+-   Inheritance (verb): the act of "inheriting" some things.
+
+- Real-Life Examples:
+1. Hair Color, color of the skin, color of the eyes, height, ... etc. (physical attributes)
+- These are "inherited" by YOU from YOUR PARENTS.
+2. Some money, a house, a car, some possessions, ... etc. (items of monetary value)
+- These might be "inherited" by YOU from YOUR PARENTS, if they choose so.
+
+- Definition: One ENTITY can acquire the properties/attributes/behaviour/traits/possessions
+of another ENTITY related to it via Inheritance.
 
 - Object-Oriented:
