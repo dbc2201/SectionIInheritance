@@ -10,3 +10,10 @@
 7. Method Overriding, Dynamic Method Dispatch, Abstract Classes & Interfaces.
 8. How we can model our programs to use all the concepts written above.
 
+### Inheritance
+
+- Simple English: 
+-   Inheritance (noun):
+-   Inheritance (verb): 
+
+- Object-Oriented:
