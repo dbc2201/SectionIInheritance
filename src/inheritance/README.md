@@ -35,7 +35,7 @@ properties(fields/variables) and methods of another class related to it.
 
 - The types of software that exist in the world:
 1. Open Source Software: we can observe and/or modify the source code.
-Ex - Linux.
+Ex - Linux, OpenJDK.
 2. Closed Source Software: we cannot observe and/or modify the source code.
 Ex - Google Chrome, Microsoft Windows, Microsoft Office.
 
@@ -48,3 +48,6 @@ we cannot modify the actual source code of the software.
 we can download the actual source code,
 we can observe the source code, 
 we can modify the source code as well.
+
+- re-use : modifying the software that is already developed and tested.
+
