@@ -29,3 +29,5 @@ public class MobilePhone extends Phone {
 // <subclass>  extends <superclass>
 // The Phone.java class is the superclass (parent class) of the MobilePhone.java class.
 // The MobilePhone.java class is the subclass (child class) of the Phone.java class.
+
+// Phone <-- (is inherited by) MobilePhone.
