@@ -26,6 +26,25 @@
 of another ENTITY related to it via Inheritance.
 
 - Object-Oriented:
+
 - IN object-oriented, entities are Classes!
 - Definition: In object-oriented programming, a class can acquire the
 properties(fields/variables) and methods of another class related to it.
+
+### Re-using Code (Re-Usability of a code)
+
+- The types of software that exist in the world:
+1. Open Source Software: we can observe and/or modify the source code.
+Ex - Linux.
+2. Closed Source Software: we cannot observe and/or modify the source code.
+Ex - Google Chrome, Microsoft Windows, Microsoft Office.
+
+- There are two ways of "using" a software: 
+1. as an end-user (client/customer):
+we can only download and install the software,
+we cannot observe the actual source code of the software,
+we cannot modify the actual source code of the software.
+2. as a developer:
+we can download the actual source code,
+we can observe the source code, 
+we can modify the source code as well.
