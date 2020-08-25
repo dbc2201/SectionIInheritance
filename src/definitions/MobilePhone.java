@@ -14,12 +14,18 @@ import org.w3c.dom.ls.LSOutput;
  * and then, some engineers invented a mobile phone.
  * */
 public class MobilePhone extends Phone {
-    public void printContactNumber() {
-        System.out.println(getContactNumber());
-    }
+
 }
 
 // MobilePhone IS A type of Phone.
 // MobilePhone should acquire the properties of Phone.
 
 // Both the Phone and the MobilePhone classes are related now.
+// SuperClass/Parent Class : Phone
+// SubClass  /Child Class  : MobilePhone
+// MobilePhone is acquiring the properties and method of the Phone class.
+
+// MobilePhone extends Phone
+// <subclass>  extends <superclass>
+// The Phone.java class is the superclass (parent class) of the MobilePhone.java class.
+// The MobilePhone.java class is the subclass (child class) of the Phone.java class.

@@ -6,5 +6,14 @@
  * */
 package execution;
 
+import definitions.MobilePhone;
+import definitions.Phone;
+
 public class Main {
+    public static void main(String[] args) {
+        Phone myPhone = new Phone();
+        System.out.println(myPhone.getContactNumber());
+        MobilePhone myMobilePhone = new MobilePhone();
+        System.out.println(myMobilePhone.getContactNumber());
+    }
 }
