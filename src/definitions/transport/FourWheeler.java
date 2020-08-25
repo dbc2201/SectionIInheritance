@@ -6,5 +6,13 @@
  * */
 package definitions.transport;
 
-public class FourWheeler {
+public class FourWheeler extends Vehicle {
 }
+
+// FourWheeler IS A type of Vehicle.
+// Vehicle <-- FourWheeler.
+// Vehicle.java class is the superclass of FourWheeler.java class.
+// FourWheeler.java class is the subclass of Vehicle.java class.
+// Vehicle.java class is the parent class.
+// FourWheeler.java class is the the child class.
+// FourWheeler.java class is acquiring all the properties & methods of the Vehicle.java class.
