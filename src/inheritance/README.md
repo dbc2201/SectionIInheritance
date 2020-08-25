@@ -26,3 +26,6 @@
 of another ENTITY related to it via Inheritance.
 
 - Object-Oriented:
+- IN object-oriented, entities are Classes!
+- Definition: In object-oriented programming, a class can acquire the
+properties(fields/variables) and methods of another class related to it.
