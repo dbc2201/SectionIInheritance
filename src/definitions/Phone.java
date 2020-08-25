@@ -11,4 +11,12 @@ package definitions;
  */
 public class Phone {
     private long contactNumber; // to store the contact number of the phone itself.
+
+    public long getContactNumber() {
+        return contactNumber;
+    }
+
+    public void setContactNumber(long contactNumber) {
+        this.contactNumber = contactNumber;
+    }
 }
