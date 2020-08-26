@@ -58,3 +58,6 @@ we can modify the source code as well.
 - we can change the type of parameters of the method.
 - Changing the behaviour of a method based on the inputs to the method.
 
+2. Method Overriding:
+- The signature of the method should be exactly same, no exceptions!
+

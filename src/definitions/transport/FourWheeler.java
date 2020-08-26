@@ -13,6 +13,13 @@ public class FourWheeler extends Vehicle {
         System.out.println("Vehicle is travelling from " + source +
                 " to " + destination + ".");
     }
+
+    // This is an overridden method.
+    // The travel() method from the Vehicle class is overridden here.
+    public void travel() {
+        System.out.println("FourWheeler is travelling to Delhi.");
+    }
+
 }
 
 // FourWheeler IS A type of Vehicle.
