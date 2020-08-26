@@ -58,7 +58,6 @@ we can modify the source code as well.
 4. Multi-level Inheritance.
 5. Hybrid Inheritance.
 
-
 ### Polymorphism
 1. Method Overloading: 
 - The signature of the method should be same except,
