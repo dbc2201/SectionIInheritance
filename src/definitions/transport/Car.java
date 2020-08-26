@@ -7,7 +7,17 @@
 package definitions.transport;
 
 public class Car extends FourWheeler {
-
+    // Car --> FourWheeler
+    // Car class is the child class of FourWheeler class.
+    // FourWheeler --> Vehicle
+    // FourWheeler class is the child class of Vehicle class.
+    // Vehicle <-- FourWheeler <-- Car
+    // Vehicle is the parent of FourWheeler.
+    // FourWheeler is the child of Vehicle.
+    // But, FourWheeler is also the parent of Car.
+    // Car is the child of FourWheeler.
+    // Multi-level Inheritance
+    // Vehicle (grandparent) <- FourWheeler (parent) <- Car (child)
 }
 
 // Vehicle <-- (is inherited by) FourWheeler
