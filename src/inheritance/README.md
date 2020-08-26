@@ -52,4 +52,9 @@ we can modify the source code as well.
 - re-use : modifying the software that is already developed and tested.
 
 ### Polymorphism
+1. Method Overloading: 
+- The signature of the method should be same except,
+- we can either change the number of parameters for the method, or
+- we can change the type of parameters of the method.
+- Changing the behaviour of a method based on the inputs to the method.
 
