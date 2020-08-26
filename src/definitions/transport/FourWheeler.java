@@ -16,6 +16,7 @@ public class FourWheeler extends Vehicle {
 
     // This is an overridden method.
     // The travel() method from the Vehicle class is overridden here.
+    @Override // annotation, used to check the signature of the method we are trying to override.
     public void travel() {
         System.out.println("FourWheeler is travelling to Delhi.");
     }

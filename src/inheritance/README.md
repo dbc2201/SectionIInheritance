@@ -60,4 +60,5 @@ we can modify the source code as well.
 
 2. Method Overriding:
 - The signature of the method should be exactly same, no exceptions!
-
+- Changing the behaviour of a method based on the object that is calling the method.
+- Uses the `@Override` annotation.
