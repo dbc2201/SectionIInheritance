@@ -7,4 +7,12 @@
 package definitions.transport;
 
 public class Vehicle {
+
+    /**
+     * This method will make the Vehicle travel to a pre-defined destination.
+     */
+    public void travel() {
+
+    }
+
 }
