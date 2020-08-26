@@ -51,6 +51,14 @@ we can modify the source code as well.
 
 - re-use : modifying the software that is already developed and tested.
 
+### Types of Inheritance
+1. Simple (Single) Inheritance.
+2. Hierarchical Inheritance.
+3. Multiple Inheritance.
+4. Multi-level Inheritance.
+5. Hybrid Inheritance.
+
+
 ### Polymorphism
 1. Method Overloading: 
 - The signature of the method should be same except,
