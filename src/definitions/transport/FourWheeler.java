@@ -20,7 +20,6 @@ public class FourWheeler extends Vehicle {
     public void travel() {
         System.out.println("FourWheeler is travelling to Delhi.");
     }
-
 }
 
 // FourWheeler IS A type of Vehicle.
