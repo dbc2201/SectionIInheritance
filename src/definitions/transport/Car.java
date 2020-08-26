@@ -6,5 +6,16 @@
  * */
 package definitions.transport;
 
-public class Car {
+public class Car extends Vehicle {
+
 }
+
+// Vehicle <-- (is inherited by) FourWheeler
+// The Vehicle.java class is the parent (super)class of the FourWheeler.java class.
+// The FourWheeler.java class is the child (sub)class of the Vehicle.java class.
+
+// Vehicle <-- Car
+// The Vehicle.java class is also the parent (super)class of Car.java class.
+// The Car.java class is also the child (sub)class of the Vehicle.java class.
+
+// Vehicle <-- FourWheeler & Car
