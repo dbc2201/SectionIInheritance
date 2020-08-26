@@ -7,6 +7,12 @@
 package definitions.transport;
 
 public class FourWheeler extends Vehicle {
+
+    // This method is also overloaded.
+    public void travel(String source, String destination) {
+        System.out.println("Vehicle is travelling from " + source +
+                " to " + destination + ".");
+    }
 }
 
 // FourWheeler IS A type of Vehicle.

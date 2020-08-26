@@ -6,14 +6,14 @@
  * */
 package execution;
 
-import definitions.MobilePhone;
-import definitions.Phone;
+import definitions.transport.FourWheeler;
+import definitions.transport.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
-        Phone myPhone = new Phone();
-        System.out.println(myPhone.getContactNumber());
-        MobilePhone myMobilePhone = new MobilePhone();
-        System.out.println(myMobilePhone.getContactNumber());
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.travel("Agra");
+        FourWheeler myFourWheeler = new FourWheeler();
+        myFourWheeler.travel();
     }
 }
