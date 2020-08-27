@@ -6,7 +6,7 @@
  * */
 package definitions.transport;
 
-public class Truck {
+public class Truck extends Vehicle {
 
 }
 // How to use Visibility Modifiers with Classes & Methods in Inheritance
