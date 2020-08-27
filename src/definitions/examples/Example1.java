@@ -10,10 +10,15 @@ package definitions.examples;
 // should be exactly the same!
 public class Example1 {
     public static void main(String[] args) {
-
+        DemoA objectA = new DemoA();
+        objectA.display();
     }
 }
 // we cannot create more than one public class in a single file
 class DemoA {
-
+    // We will only call this class a 'parent class' when we have a 'child class'.
+    public void display() {
+        System.out.println("Parent Class Method.");
+    }
 }
+
