@@ -7,6 +7,9 @@
 package definitions.transport;
 
 public class Car extends FourWheeler {
+
+    private Truck myTruck;
+
     // Car --> FourWheeler
     // Car class is the child class of FourWheeler class.
     // FourWheeler --> Vehicle
