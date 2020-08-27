@@ -6,10 +6,17 @@
  * */
 package definitions;
 
-//import definitions.transport.Truck;
+import definitions.transport.Truck;
 
-public class DeliveryTruck {
+public class DeliveryTruck extends Truck {
 
-//    Truck myDeliveryTruck;
+    public void startDeliveryTruck() {
+        startTruck();
+    }
 
 }
+
+// The difference between the <default> and the `protected` visibility modifiers is:
+// If a member or a class is <default>, it can not be accessed outside its own package.
+// But if a member or a class is protected, it can be accessed outside its own package,
+// if the class is a child class.

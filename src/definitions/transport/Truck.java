@@ -28,8 +28,19 @@ public class Truck extends Vehicle {  // The class has a <default> visibility mo
 //                a class with the <default> visibility modifier is acting as
 //                a private member for the package
 //                So, we sometimes also call it 'package-private' visibility modifier.
-class MonsterTruck {
+class MonsterTruck extends Truck {
     public MonsterTruck() {
         Truck myTruck = new Truck();
     }
+    public void startMonsterTruck() {
+        startTruck();
+    }
 }
+
+
+
+
+
+
+
+
