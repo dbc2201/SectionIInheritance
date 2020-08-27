@@ -56,7 +56,7 @@ we can modify the source code as well.
 2. Hierarchical Inheritance.
 3. Multiple Inheritance. (NOT ALLOWED IN JAVA!)
 4. Multi-level Inheritance.
-5. Hybrid Inheritance.
+5. Hybrid Inheritance. (We need Abstract Classes and/or Interfaces)
 
 ### Polymorphism
 1. Method Overloading: 
