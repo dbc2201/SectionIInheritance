@@ -17,6 +17,7 @@ public class Example1 {
     }
 }
 // we cannot create more than one public class in a single file
+// Single Inheritance / Simple Inheritance
 class DemoA {
     // We will only call this class a 'parent class' when we have a 'child class'.
     public void display() {
