@@ -14,3 +14,8 @@ public class Truck extends Vehicle {
 // 2. private
 // 3. protected
 // 4. <default>
+class MonsterTruck {
+    public MonsterTruck() {
+        Truck myTruck = new Truck();
+    }
+}
