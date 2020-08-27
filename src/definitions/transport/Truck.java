@@ -6,12 +6,18 @@
  * */
 package definitions.transport;
 
-class Truck extends Vehicle {  // The class has a <default> visibility modifier
+// outer class
+public class Truck extends Vehicle {  // The class has a <default> visibility modifier
+
+    // inner class
+    private class Engine {
+
+    }
 
 }
 // How to use Visibility Modifiers with Classes & Methods in Inheritance
 // 1. public : a public class can accessed anywhere in the project.
-// 2. private
+// 2. private : only inner classes can be private in Java.
 // 3. protected
 // 4. <default> : cannot be accessed outside the package
 //                it can be accessed anywhere in the same package
