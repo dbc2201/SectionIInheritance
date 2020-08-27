@@ -6,10 +6,10 @@
  * */
 package definitions;
 
-import definitions.transport.Truck;
+//import definitions.transport.Truck;
 
 public class DeliveryTruck {
 
-    Truck myDeliveryTruck;
+//    Truck myDeliveryTruck;
 
 }
