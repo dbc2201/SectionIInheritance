@@ -21,4 +21,10 @@ class DemoA {
         System.out.println("Parent Class Method.");
     }
 }
-
+class DemoB extends DemoA { // we have written the extends keyword
+    // so, right now, it is child class
+    @Override
+    public void display() { // method overriding? YES!
+        System.out.println("Child Class Method.");
+    }
+}
