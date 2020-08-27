@@ -12,6 +12,8 @@ public class Example1 {
     public static void main(String[] args) {
         DemoA objectA = new DemoA();
         objectA.display();
+        DemoB objectB = new DemoB();
+        objectB.display();
     }
 }
 // we cannot create more than one public class in a single file
