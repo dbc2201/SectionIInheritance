@@ -8,12 +8,12 @@ package definitions.examples;
 
 public class Example4 {
     public static void main(String[] args) {
-        Bus miniBus = new Bus();
-        miniBus.methodA();
+//        Bus miniBus = new Bus();
+//        miniBus.methodA();
     }
 }
 
-class Vehicle {
+final class Vehicle {
     float speed;
     float mileage;
 
@@ -22,9 +22,9 @@ class Vehicle {
     }
 }
 
-class Bus extends Vehicle {
-    @Override
-    void methodA() {
-        System.out.println("Bus class method.");
-    }
-}
+//class Bus extends Vehicle {
+//    @Override
+//    void methodA() {
+//        System.out.println("Bus class method.");
+//    }
+//}
