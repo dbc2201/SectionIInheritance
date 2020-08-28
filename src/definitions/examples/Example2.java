@@ -22,4 +22,8 @@ class B extends A {
     public void methodA(int k) { // method overriding
         j = k * k;
     }
+
+    public void methodB() {
+        System.out.println("Class B method.");
+    }
 }
