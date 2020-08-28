@@ -25,7 +25,10 @@ class A1 {
     }
 }
 class B1 extends A1 {
-
+    public int multiply(int x, int y) {
+        int product = i * j;
+        return product;
+    }
 }
 
 
