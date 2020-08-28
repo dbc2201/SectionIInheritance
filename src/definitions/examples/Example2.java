@@ -17,3 +17,6 @@ class A {
         j = k;
     }
 }
+class B {
+
+}
