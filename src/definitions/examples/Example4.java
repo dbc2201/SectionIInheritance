@@ -19,5 +19,7 @@ class Vehicle {
     }
 }
 class Bus extends Vehicle {
-
+    void methodA() {
+        System.out.println("Bus class method.");
+    }
 }
