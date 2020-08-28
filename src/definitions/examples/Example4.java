@@ -11,3 +11,6 @@ public class Example4 {
 
     }
 }
+class Vehicle {
+
+}
