@@ -13,4 +13,7 @@ public class Example2 {
 }
 class A {
     int j = 0;
+    public void methodA(int k) {
+        j = k;
+    }
 }
