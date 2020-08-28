@@ -15,6 +15,10 @@ public class Example3 {
         C1 objectC1 = new C1();
         objectC1.setValues(35, 7);
         System.out.println(objectC1.divide(1, 1));
+
+        D1 objectD1 = new D1();
+        objectD1.setValues(5, 5);
+        System.out.println(objectD1.subtract(0,10));
     }
 }
 class A1 {
