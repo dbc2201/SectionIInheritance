@@ -12,5 +12,5 @@ public class Example2 {
     }
 }
 class A {
-
+    int j = 0;
 }
