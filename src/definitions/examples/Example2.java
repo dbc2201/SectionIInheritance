@@ -11,3 +11,6 @@ public class Example2 {
 
     }
 }
+class A {
+
+}
