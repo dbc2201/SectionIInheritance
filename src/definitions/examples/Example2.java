@@ -8,7 +8,9 @@ package definitions.examples;
 
 public class Example2 {
     public static void main(String[] args) {
-
+        C objectC = new C();
+        objectC.methodA(4);
+        System.out.println(objectC.j);
     }
 }
 
