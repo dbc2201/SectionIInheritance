@@ -30,6 +30,19 @@ class B1 extends A1 {
         return product;
     }
 }
+class C1 extends A1 {
+    public int divide(int x, int y) {
+        int division = i / j;
+        return division;
+    }
+}
+
+
+
+
+
+
+
 
 
 
