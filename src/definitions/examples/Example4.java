@@ -12,13 +12,16 @@ public class Example4 {
         miniBus.methodA();
     }
 }
+
 class Vehicle {
     float speed;
     float mileage;
+
     void methodA() {
         System.out.println("Vehicle class method.");
     }
 }
+
 class Bus extends Vehicle {
     @Override
     void methodA() {
