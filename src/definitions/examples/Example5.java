@@ -23,5 +23,5 @@ class Bike {
 }
 
 class SuperBike extends Bike {
-
+    int maxSpeed;
 }
