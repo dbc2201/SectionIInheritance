@@ -8,7 +8,10 @@ package definitions.examples;
 
 public class Example5 {
     public static void main(String[] args) {
-
+        Bike myBike = new Bike();
+        myBike.bikeID = 1;
+        myBike.modelYear = 2020;
+        myBike.display();
     }
 }
 
