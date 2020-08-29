@@ -10,6 +10,8 @@ public class Example6 {
     public static void main(String[] args) {
         Airplane airbusA380 = new Airplane(1, 300);
         airbusA380.displayInformation();
+        Jet rafael = new Jet(24, 2, 4);
+        rafael.displayInformation();
     }
 }
 
@@ -31,8 +33,8 @@ class Airplane {
 class Jet extends Airplane {
     private int numberOfEngines;
 
-    public Jet(int airlineID, int numberOfSeats, int numberOfEngines) {
-        super(airlineID, numberOfSeats);
+    public Jet(int airplaneID, int numberOfSeats, int numberOfEngines) {
+        super(airplaneID, numberOfSeats);
         this.numberOfEngines = numberOfEngines;
     }
 
