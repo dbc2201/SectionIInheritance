@@ -24,4 +24,11 @@ class Bike {
 
 class SuperBike extends Bike {
     int maxSpeed;
+
+    @Override
+    void display() {
+        System.out.println("bikeID = " + bikeID);
+        System.out.println("modelYear = " + modelYear);
+        System.out.println("maxSpeed = " + maxSpeed);
+    }
 }
