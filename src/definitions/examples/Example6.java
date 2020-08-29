@@ -34,6 +34,12 @@ class Jet extends Airplane {
         super(airlineID, numberOfSeats);
         this.numberOfEngines = numberOfEngines;
     }
+
+    @Override
+    public void displayInformation() {
+        super.displayInformation();
+        System.out.println("numberOfEngines = " + numberOfEngines);
+    }
 }
 
 
