@@ -21,3 +21,7 @@ class Bike {
         System.out.println("modelYear = " + modelYear);
     }
 }
+
+class SuperBike {
+
+}
