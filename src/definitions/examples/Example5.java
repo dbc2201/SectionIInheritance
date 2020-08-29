@@ -22,6 +22,6 @@ class Bike {
     }
 }
 
-class SuperBike {
+class SuperBike extends Bike {
 
 }
