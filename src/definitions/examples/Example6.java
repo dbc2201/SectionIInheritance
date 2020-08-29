@@ -8,7 +8,8 @@ package definitions.examples;
 
 public class Example6 {
     public static void main(String[] args) {
-
+        Airplane airbusA380 = new Airplane(1, 300);
+        airbusA380.displayInformation();
     }
 }
 
