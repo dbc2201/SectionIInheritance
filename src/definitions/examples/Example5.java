@@ -13,5 +13,6 @@ public class Example5 {
 }
 
 class Bike {
-
+    int bikeID;
+    int modelYear;
 }
