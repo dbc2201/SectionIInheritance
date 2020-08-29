@@ -13,5 +13,6 @@ public class Example6 {
 }
 
 class Airplane {
-
+    private int airplaneID;
+    private int numberOfSeats;
 }
