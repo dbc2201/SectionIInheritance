@@ -11,3 +11,7 @@ public class StaticBinding {
 
     }
 }
+class Vehicle {
+
+}
+
