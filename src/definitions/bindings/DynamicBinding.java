@@ -17,3 +17,7 @@ class Airplane {
         System.out.println("Airplane Class.");
     }
 }
+
+class Jet {
+
+}
