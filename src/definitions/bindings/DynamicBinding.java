@@ -19,5 +19,8 @@ class Airplane {
 }
 
 class Jet extends Airplane {
-
+    @Override
+    public void display() {
+        System.out.println("Jet Class.");
+    }
 }
