@@ -18,6 +18,6 @@ class Airplane {
     }
 }
 
-class Jet {
+class Jet extends Airplane {
 
 }
