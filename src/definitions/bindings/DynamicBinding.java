@@ -13,5 +13,7 @@ public class DynamicBinding {
 }
 
 class Airplane {
-
+    public void display() {
+        System.out.println("Airplane Class.");
+    }
 }
