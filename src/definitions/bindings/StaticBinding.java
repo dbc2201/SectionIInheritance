@@ -18,6 +18,8 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-
+    public void displayColor() {
+        System.out.println("The Car is black.");
+    }
 }
 
