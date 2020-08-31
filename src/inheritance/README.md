@@ -78,3 +78,10 @@ When the binding is performed at compile time, by the compiler, it is called `St
 `Early Binding`.
 
 ### Dynamic Binding
+The compiler is not able to resolve the method call (binding) at compile time. 
+It is also called `late binding`.
+Ex - Method Overriding.
+
+The basic difference between static binding and dynamic binding is, 
+the static binding occurs at compile time, whereas
+the dynamic binding occurs at run time. 
