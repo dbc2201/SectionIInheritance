@@ -74,5 +74,7 @@ we can modify the source code as well.
 Associating a method call to a method body. It has two types:
 
 ### Static Binding
+When the binding is performed at compile time, by the compiler, it is called `Static Binding` or
+`Early Binding`.
 
 ### Dynamic Binding
