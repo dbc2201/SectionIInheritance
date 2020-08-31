@@ -8,7 +8,12 @@ package definitions.bindings;
 
 public class StaticBinding {
     public static void main(String[] args) {
-
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.display();
+        Car myCar = new Car();
+        myCar.displayColor(); // method call
+        // Associating the method call with the method body, at compile time.
+        // Also know as, Static Binding.
     }
 }
 class Vehicle {
@@ -18,7 +23,7 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-    public void displayColor() {
+    public void displayColor() { // method body
         System.out.println("The Car is black.");
     }
 }
