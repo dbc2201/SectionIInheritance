@@ -16,6 +16,7 @@ public class StaticBinding {
         // Also know as, Static Binding.
     }
 }
+
 class Vehicle {
     public void display() {
         System.out.println("Vehicle Class.");
