@@ -85,3 +85,17 @@ Ex - Method Overriding.
 The basic difference between static binding and dynamic binding is, 
 the static binding occurs at compile time, whereas
 the dynamic binding occurs at run time. 
+
+
+## Dynamic Method Dispatch
+- It is a mechanism by which we can achieve runtime polymorphism for overridden methods
+in Java. 
+- It is implemented with the help of a reference variable of a parent class.
+- The reference variable of the parent class can refer to the reference value of an object
+of the child class.
+- Ex = ParentClassName parentClassReferenceVariable = new ChildClassName();
+- Bike newBike = new RacingBike();
+- There can be many subclasses (child classes) inherited from a single parent class.
+- Each child class will have its own version of the method of the overridden method.
+- The compiler then uses Dynamic Method Dispatch to select the correct version of 
+the overridden method from the parent and the child classes. 
