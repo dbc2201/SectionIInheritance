@@ -12,6 +12,8 @@ public class DynamicMethodDispatch {
         myBike.display();
         RacingBike myRacingBike = new RacingBike();
         myRacingBike.display();
+        DeliveryBike myDeliveryBike = new DeliveryBike();
+        myDeliveryBike.display();
     }
 }
 
