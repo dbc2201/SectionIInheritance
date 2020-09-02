@@ -20,6 +20,6 @@ class RacingBike extends Bike {
 
 }
 
-class DeliveryBike {
+class DeliveryBike extends Bike {
 
 }
