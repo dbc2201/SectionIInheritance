@@ -13,7 +13,9 @@ public class DynamicMethodDispatch {
 }
 
 class Bike {
-
+    public void display() {
+        System.out.println("Bike class.");
+    }
 }
 
 class RacingBike extends Bike {
