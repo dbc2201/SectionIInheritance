@@ -19,3 +19,7 @@ class Bike {
 class RacingBike {
 
 }
+
+class DeliveryBike {
+
+}
