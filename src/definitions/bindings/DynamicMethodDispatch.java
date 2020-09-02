@@ -14,12 +14,19 @@ public class DynamicMethodDispatch {
         myRacingBike.display();
         DeliveryBike myDeliveryBike = new DeliveryBike();
         myDeliveryBike.display();
+        Bike newBike = myDeliveryBike;
+        newBike.display();
+        newBike.bike();
     }
 }
 
 class Bike {
     public void display() {
         System.out.println("Bike class.");
+    }
+
+    public void bike() {
+        System.out.println("bike...");
     }
 }
 
@@ -28,11 +35,19 @@ class RacingBike extends Bike {
     public void display() {
         System.out.println("RacingBike class.");
     }
+
+    public void race() {
+        System.out.println("race...");
+    }
 }
 
 class DeliveryBike extends Bike {
     @Override
     public void display() {
         System.out.println("DeliveryBike class.");
+    }
+
+    public void deliver() {
+        System.out.println("deliver...");
     }
 }
