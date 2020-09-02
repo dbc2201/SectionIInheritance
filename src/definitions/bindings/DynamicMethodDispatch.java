@@ -19,7 +19,10 @@ class Bike {
 }
 
 class RacingBike extends Bike {
-
+    @Override
+    public void display() {
+        System.out.println("RacingBike class.");
+    }
 }
 
 class DeliveryBike extends Bike {
