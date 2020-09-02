@@ -9,6 +9,9 @@ package definitions.bindings;
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
         Bike myBike = new Bike();
+        myBike.display();
+        RacingBike myRacingBike = new RacingBike();
+        myRacingBike.display();
     }
 }
 
