@@ -11,3 +11,7 @@ public class DynamicMethodDispatch {
 
     }
 }
+
+class Bike {
+
+}
