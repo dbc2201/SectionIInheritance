@@ -15,3 +15,7 @@ public class DynamicMethodDispatch {
 class Bike {
 
 }
+
+class RacingBike {
+
+}
