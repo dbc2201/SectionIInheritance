@@ -17,3 +17,13 @@ public abstract class Airplane {
 
     public abstract void fly();
 }
+
+class Jet extends Airplane {
+    @Override
+    public void fly() {
+        System.out.println("Jet is flying...");
+    }
+    // Since the Airplane class is an abstract class,
+    // it is necessary of every child class of the Airplane class to
+    // implement (override) all the abstract methods in the Airplane class.
+}
