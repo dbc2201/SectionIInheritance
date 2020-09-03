@@ -7,4 +7,20 @@
 package definitions.interfaces;
 
 public interface ATM {
+    // 1. For fields
+    // i. every field declared in an interface must be initialized.
+    // ii. every field declared in an interface is automatically considered
+    // as public by the compiler.
+    // iii. every field declared in an interface is automatically considered
+    // as final by the compiler, i.e we cannot change its value.
+    // public final <dataType> <variableName> = <initialValue>;
+    int atmID = 1234;
+
+    // 2. For methods
+    // i. every method declared in an interface is automatically considered
+    // as an abstract method by the compiler.
+    // ii. every method declared in an interface is automatically considered
+    // as a public method by the compiler.
+    // public abstract <staticModifier> <returnType> <methodName>();
+    void withdrawMoney();
 }
