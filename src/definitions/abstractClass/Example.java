@@ -24,3 +24,7 @@ class Student extends Human {
         System.out.println("I am a Student.");
     }
 }
+
+class Teacher {
+
+}
