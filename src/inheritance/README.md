@@ -121,3 +121,5 @@ class.
 - Any abstract class in Java should have at least 1 abstract method.
 - It is necessary for every child class of an abstract class to implement
 (override) all the abstract methods of the parent class.
+
+## Interfaces:
