@@ -6,5 +6,5 @@
  * */
 package definitions.abstractClass;
 
-public class Airplane {
+public abstract class Airplane {
 }
