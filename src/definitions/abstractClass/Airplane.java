@@ -7,4 +7,10 @@
 package definitions.abstractClass;
 
 public abstract class Airplane {
+    // 1. Simple methods, with their bodies
+
+    public void display() {
+        System.out.println("Airplane class.");
+    }
+
 }
