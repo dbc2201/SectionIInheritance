@@ -12,10 +12,9 @@ public class Example {
     }
 }
 
-class Human {
-    public void talk() {
-        System.out.println("I am Human.");
-    }
+abstract class Human {
+    abstract public void talk(); // This method is now declared as an abstract method.
+    // That means we do not have to define the body of this method.
 }
 
 class Student extends Human {
