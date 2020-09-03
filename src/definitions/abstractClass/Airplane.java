@@ -13,4 +13,7 @@ public abstract class Airplane {
         System.out.println("Airplane class.");
     }
 
+    // 2. Abstract method, without their bodies
+
+    public abstract void fly();
 }
