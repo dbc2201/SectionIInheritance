@@ -99,3 +99,14 @@ of the child class.
 - Each child class will have its own version of the method of the overridden method.
 - The compiler then uses Dynamic Method Dispatch to select the correct version of 
 the overridden method from the parent and the child classes. 
+
+We know that in Java, we have 4 types of program units:
+1. Classes (a definition class, and an execution class).
+2. Abstract Classes.
+3. Interfaces.
+4. Enums.
+
+## Abstract Classes:
+- Are similar to classes, the only difference is that an abstract class
+can have abstract methods.
+- An abstract method is a method whose body is not properly defined.
