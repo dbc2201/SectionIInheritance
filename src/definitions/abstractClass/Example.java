@@ -26,5 +26,8 @@ class Student extends Human {
 }
 
 class Teacher extends Human {
-
+    @Override
+    public void talk() {
+        System.out.println("I am a Teacher.");
+    }
 }
