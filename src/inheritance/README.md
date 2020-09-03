@@ -110,3 +110,14 @@ We know that in Java, we have 4 types of program units:
 - Are similar to classes, the only difference is that an abstract class
 can have abstract methods.
 - An abstract method is a method whose body is not properly defined.
+- There are situations in which it is desired that a parent class will not
+define the method body, but should contain the signatures so that a child class
+can override the methods.
+- There can be many child classes but only a single parent class.
+- Each child class will implement (override) its own version of the overridden
+methods of the parent class.
+- Any class in Java that has an abstract method has to be declared as an asbtract
+class.
+- Any abstract class in Java should have at least 1 abstract method.
+- It is necessary for every child class of an abstract class to implement
+(override) all the abstract methods of the parent class.
