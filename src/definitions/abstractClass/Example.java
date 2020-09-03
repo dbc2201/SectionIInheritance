@@ -15,3 +15,7 @@ public class Example {
 class Human {
 
 }
+
+class Student {
+
+}
