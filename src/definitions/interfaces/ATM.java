@@ -7,4 +7,10 @@
 package definitions.interfaces;
 
 public interface ATM {
+    /**
+     * This method specifies how to withdraw money from an ATM.
+     *
+     * @param amount The amount of money the customer wants to withdraw.
+     */
+    void withdrawMoney(double amount);
 }
