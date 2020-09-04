@@ -7,4 +7,11 @@
 package definitions.interfaces;
 
 public interface Bank {
+    /**
+     * This method specifies how to open a bank account.
+     *
+     * @param firstName The first name of the customer.
+     * @param lastName  The last name of the customer.
+     */
+    void createBankAccount(String firstName, String lastName);
 }
