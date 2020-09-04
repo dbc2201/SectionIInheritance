@@ -13,7 +13,9 @@ public interface ATM {
     // as public by the compiler.
     // iii. every field declared in an interface is automatically considered
     // as final by the compiler, i.e we cannot change its value.
-    // public final <dataType> <variableName> = <initialValue>;
+    // iv. every fields declared in an interface is automatically considered
+    // as static by the compiler.
+    // public static final <dataType> <variableName> = <initialValue>;
     int atmID = 1234;
 
     // 2. For methods
