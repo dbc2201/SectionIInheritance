@@ -6,7 +6,7 @@
  * */
 package definitions.interfaces;
 
-public interface ATM {
+public interface Example {
     // 1. For fields
     // i. every field declared in an interface must be initialized.
     // ii. every field declared in an interface is automatically considered

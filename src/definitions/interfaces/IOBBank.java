@@ -12,7 +12,7 @@ package definitions.interfaces;
 // for inheriting an interface, we use:
 // the `implements` keyword
 
-public class IOBBank implements ATM, Locker {
+public class IOBBank implements Example, Locker {
     @Override
     public void storeItem() {
 
