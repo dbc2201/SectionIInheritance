@@ -8,6 +8,7 @@ package definitions.interfaces;
 
 public class Execution {
     public static void main(String[] args) {
-
+        SBI mathuraBranch; // reference variable of the SBI Class.
+        Bank bank; // reference variable of the Bank Interface.
     }
 }

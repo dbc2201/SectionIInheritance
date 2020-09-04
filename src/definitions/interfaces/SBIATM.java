@@ -21,5 +21,16 @@ public class SBIATM implements ATM, Bank {
     public void transferBankAccount(int oldCustomerID, int newCustomerID) {
 
     }  // Single Responsibility Principle
-    // SOLID Principles
+   // SOLID Principles
+
+    int correctPin = 5678;
+
+    @Override
+    public void checkPin(int pin) {
+        if (pin == correctPin) {
+            System.out.println("Logged In");
+        } else {
+            System.out.println("please check your pin and try again.");
+        }
+    }
 }

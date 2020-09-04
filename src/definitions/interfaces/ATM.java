@@ -13,4 +13,9 @@ public interface ATM {
      * @param amount The amount of money the customer wants to withdraw.
      */
     void withdrawMoney(double amount);
+
+    // CAREFUL! This is not the <default> visibility modifier!
+    default void checkPin(int pin) {
+
+    }
 }

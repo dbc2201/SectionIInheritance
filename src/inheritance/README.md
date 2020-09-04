@@ -131,4 +131,8 @@ defined with an interface keyword.
 be public or <default>.
 3. We can create a reference variable of an interface just like we can create a 
 reference variable of a class.
+4. An interface (by default / implicitly) has abstract methods, but a class can
+have both abstract and non-abstract methods.
+But, since Java 8 (2014), we can create special methods in an interface
+that can have their bodies with the `static` and the `default` keywords.
 
