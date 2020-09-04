@@ -123,3 +123,12 @@ class.
 (override) all the abstract methods of the parent class.
 
 ## Interfaces:
+### Similarities between Classes and Interfaces:
+1. The structure of a class, and an interface are mostly similar, with the only 
+exception that a class is defined with the class keyword, and an interface is 
+defined with an interface keyword.
+2. Just like classes, interfaces can also have visibility modifiers, they can 
+be public or <default>.
+3. We can create a reference variable of an interface just like we can create a 
+reference variable of a class.
+
