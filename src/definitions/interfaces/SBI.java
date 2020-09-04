@@ -7,9 +7,19 @@
 package definitions.interfaces;
 
 public class SBI implements Bank {
+
+    private int customerID;
+
     @Override
     public void createBankAccount(String firstName, String lastName) {
         System.out.println("Congratulations, " + firstName + " " + lastName +
                 ". Your bank account is now opened!");
+    }
+
+    @Override
+    public void transferBankAccount(int oldCustomerID, int newCustomerID) {
+        this.customerID = newCustomerID;
+        System.out.println("Congratulations, " + oldCustomerID + ".");
+        System.out.println("The account is now transferred to " + newCustomerID);
     }
 }
