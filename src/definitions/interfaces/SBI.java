@@ -6,5 +6,10 @@
  * */
 package definitions.interfaces;
 
-public class SBI {
+public class SBI implements Bank {
+    @Override
+    public void createBankAccount(String firstName, String lastName) {
+        System.out.println("Congratulations, " + firstName + " " + lastName +
+                ". Your bank account is now opened!");
+    }
 }
